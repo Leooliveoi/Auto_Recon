@@ -43,7 +43,7 @@ api_endpoint_path="/usr/share/wordlists/SecLists/Discovery/Web-Content/api/api-e
 dirsearch_path="/usr/share/wordlists/SecLists/Discovery/Web-Content/dirsearch.txt"
 
 ### Folder Path ###
-FPATH="auto_recon"
+FPATH="auto_recon_$i"
 # Creating direcories to save files
 echo "CREATING FOLDERS ..."
 mkdir $FPATH; echo "$FPATH created!"
